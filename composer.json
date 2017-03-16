@@ -1,0 +1,16 @@
+{
+  "name": "mckenzie/scarab",
+  "type": "library",
+  "description": "A very light currently unstable PHP framework",
+  "keywords": ["Scarab", "framework", "laravel", "alternative", "lightweight", "mckenzie"],
+  "homepage": "https://github.com/mckayze/scarab",
+  "license": "MIT",
+  "Authors" : [{
+      "name": "McKenzie Flavius",
+      "email": "mckenzie-95@hotmail.com",
+      "role": "Developer"
+    }],
+  "require": {
+    "php": ">=5.5.0"
+  }
+}
