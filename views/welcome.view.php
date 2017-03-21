@@ -1,8 +1,8 @@
 <html lang="en">
 <head>
-    <meta charset="utf-8">it
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Scarab | 1.0</title>
+    <title>Scarab | 1.1</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <style>
@@ -10,9 +10,9 @@
             font-size: 16px;
             padding-top: 370px;
             width: 100%;
+            font-family: 'Poiret One', cursive;
         }
         .heading {
-            font-family: 'Poiret One', cursive;
             font-size: 4em;
         }
         .c-container {
@@ -24,6 +24,7 @@
             color: grey;
             user-select: none;
             -moz-user-select: none;
+            font-weight: bolder;
         }
         .nav > li {
             display: inline-block;
