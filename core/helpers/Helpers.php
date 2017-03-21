@@ -5,6 +5,13 @@ function dd($item)
     return die(var_dump($item));
 }
 
+function getBaseUrl()
+{
+    $currentBasePath = str_replace('\core', '', dirname(__DIR__));
+    $baseUrl = @end(explode('\\', $currentBasePath));
+    return "/$baseUrl/";
+}
+
 function resource($url)
 {
     return "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]public/$url";
@@ -23,7 +30,7 @@ function url($url)
 {
     if($url == '/')
     {
-        return "http://$_SERVER[HTTP_HOST]/scarab/";
+        return "http://$_SERVER[HTTP_HOST]".getBaseUrl();
     }
     else
     {

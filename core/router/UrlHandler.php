@@ -8,7 +8,6 @@
 
 namespace Core;
 
-
 class UrlHandler
 {
     /**
@@ -16,7 +15,8 @@ class UrlHandler
      * The baseUri variable stores the base website name,
      * don't forget to change this when you need.
      */
-    public static $baseUri    = '/scarab/';
+
+    public static $baseUri;
 
     /**
      * @var $requestUri
@@ -37,6 +37,7 @@ class UrlHandler
 
     public static function getRequestUri()
     {
+        self::$baseUri = getBaseUrl();
         self::setRequestedUri();
         return self::$requestUri;
     }

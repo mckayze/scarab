@@ -1,20 +1,16 @@
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Scarab</a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="{{ url('/') }}">Home</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+<nav>
+    <ul class="nav">
+        <li>
+            <a href="#">Website</a>
+        </li>
+        <li>
+            <a href="#">Tutorials</a>
+        </li>
+        <li>
+            <a href="https://github.com/mckayze/scarab" target="_blank">Github</a>
+        </li>
+        <li>
+            <a href="#">Creator</a>
+        </li>
+    </ul>
 </nav>

@@ -13,10 +13,7 @@ class PagesController
 {
     public static function welcome()
     {
-        $title = 'Welcome to the welcome page';
-        $body  = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aspernatur eius enim id ipsa laborum
-                  libero neque nesciunt quia, rerum saepe soluta voluptates. Alias blanditiis, eligendi error nobis
-                  reprehenderit tempora?';
+        $title = 'Welcome to scarab';
         $name  = 'Mckenzie';
         $link  = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]about";
 
