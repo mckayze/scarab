@@ -1,10 +1,10 @@
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8">it
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Scarab | 1.0</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Antic|Jura|Open+Sans+Condensed:300|Poiret+One|Reem+Kufi" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <style>
         body {
             font-size: 16px;
@@ -35,8 +35,12 @@
 <body>
 
 <div class="c-container">
-    <div class="heading">{{ $title }}</div>
+    <div class="heading">
+        {{ $title }}
+    </div>
+
     <br>
+
     {{ provide('partials/nav') }}
 </div>
 
